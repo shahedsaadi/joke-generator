@@ -28,7 +28,9 @@ https://joke-generator-rcfc.onrender.com/
 - Visit the link http://localhost:3000/
 
 # Website Screenshot:
-![Screenshot 2024-04-18 142640](https://github.com/shahedsaadi/joke-generator/assets/108287237/023629f5-21dd-47ee-ab2e-17b5947662ca)
+![Screenshot 2024-04-18 144128](https://github.com/shahedsaadi/joke-generator/assets/108287237/8b9985e4-85ef-4d9f-88d5-a128f996717c)
+
+
 
 
 ![Screenshot 2024-04-18 142924](https://github.com/shahedsaadi/joke-generator/assets/108287237/17c41f68-f87c-4174-b73d-1387b414134e)
