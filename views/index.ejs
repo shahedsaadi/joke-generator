@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joke Generator</title>
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+
+  <% if(locals.name){ %> 
+    <div class="container">
+    <h1>Hello, <%= name %> your joke for the day:</h1>
+
+    <div class="card">
+      <h3><%= joke %></h3>
+      <span class="card-info">Joke category: <%= category %></span>
+    </div>
+    </div>
+  <% } else {%>
+
+<div class="form-container">
+  <h2>Write Your Name</h2>
+  <form action="/submit" method="POST">
+    <label for="username">Name:</label>
+    <input type="text" id="username" name="name" required>
+    <input id="sButton" type="submit" value="Submit">
+  </form>
+</div>
+
+<% } %>
+
+</body>
+</html>
+
+
+
+
+
+    <!-- <p</p>
+    <p></p>
+
+    <div class="bg-body-tertiary p-5 rounded mt-3">
+    <h1>Bottom Navbar example</h1>
+    <p class="lead">This example is a quick exercise to illustrate how the bottom navbar works.</p>
+    <a class="btn btn-lg btn-primary" href="/docs/5.3/components/navbar/" role="button">View navbar docs »</a>
+  </div> -->
+
+
+
+
